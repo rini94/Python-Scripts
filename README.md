@@ -8,8 +8,10 @@
 
 
 
-#### manga-chapter-download.py
+#### manga-download.py
 
-- Run the script, enter the mangafox (fanfox.net) chapter url.
+- Run the script, chapter count is optional.
+- Enter the fanfox.net chapter or page url to start downloading.
 - All the pages of the chapter are downloaded and saved to a folder in the same directory.
+- Keeps downloading and saving to folders till the chapter limit reached or the series ends.
 - Uses selenium and chrome driver.
