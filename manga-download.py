@@ -49,7 +49,7 @@ def download_image (image):
 		image_name = name1[len(name1) - 1]
 		chapter = name1[len(name1) - 3]
 
-		if image_chapter == None:
+		if image_chapter is None:
 			image_chapter = chapter
 		elif image_chapter != chapter:
 			image_chapter = chapter
