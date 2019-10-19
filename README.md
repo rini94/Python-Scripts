@@ -15,3 +15,10 @@
 - All the pages of the chapter are downloaded and saved to a folder in the same directory.
 - Keeps downloading and saving to folders till the chapter limit reached or the series ends.
 - Uses selenium and chrome driver.
+
+
+
+#### reddit_posts_titles.py
+
+- Gets the titles of the last few posts on a subreddit.
+- First argument is subreddit name, default is the home page. Second argument is sort type, default is hot.
